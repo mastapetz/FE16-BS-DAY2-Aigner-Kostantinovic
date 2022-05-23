@@ -1,0 +1,10 @@
+Do you know what the default font stack in Bootstrap is?
+
+What do we need to do to get nice looking tables in Bootstrap?
+
+How many Bootstrap layout components do you know?
+
+Bootstrap provides a few different options for styling navigation elements, how many do you know?
+
+
+What is the purpose of the modal window?
