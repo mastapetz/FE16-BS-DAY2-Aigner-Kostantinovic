@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/20/18/10/cinema-5069314_960_720.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    color: cyan;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
