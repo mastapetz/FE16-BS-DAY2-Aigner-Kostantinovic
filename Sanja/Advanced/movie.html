@@ -35,7 +35,30 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  All movies
+                </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">New</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Comedy</a></li>
+
+                        <li><a class="dropdown-item" href="#">Horror</a></li>
+                        <li><a class="dropdown-item" href="#">Adventure</a></li>
+                        <li><a class="dropdown-item" href="#">Comedy</a></li>
+
+                        <li><a class="dropdown-item" href="#">Crime</a></li>
+                        <li><a class="dropdown-item" href="#">International</a></li>
+                        <li><a class="dropdown-item" href="#">Children</a></li>
+
+                        <li><a class="dropdown-item" href="#">Romantic</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Actors
                 </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -46,8 +69,18 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reviews
+                </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
             </ul>
             <form class="d-flex">
@@ -62,16 +95,16 @@
 
 <body>
     <ul class="nav nav-pills navbar-expand-lg vstack bg-secondary pills gap-3 ps-3">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a class="left" href="#">Menu 1</a></li>
-        <li><a class="left" href="#">Menu 2</a></li>
-        <li><a class="left" href="#">Menu 3</a></li>
-        <li><a class="left" href="#">Menu 1</a></li>
-        <li><a class="left" href="#">Menu 2</a></li>
-        <li><a class="left" href="#">Menu 3</a></li>
-        <li><a class="left" href="#">Menu 1</a></li>
-        <li><a class="left" href="#">Menu 2</a></li>
-        <li><a class="left" href="#">Menu 3</a></li>
+        <li class="active"><a href="#">All</a></li>
+        <li><a class="left" href="#">New</a></li>
+        <li><a class="left" href="#">Action</a></li>
+        <li><a class="left" href="#">Comedy</a></li>
+        <li><a class="left" href="#">Horror</a></li>
+        <li><a class="left" href="#">Adventure</a></li>
+        <li><a class="left" href="#">Crime</a></li>
+        <li><a class="left" href="#">International</a></li>
+        <li><a class="left" href="#">Children</a></li>
+        <li><a class="left" href="#">Romantic</a></li>
     </ul>
     <div class="container">
         <h3>Vertical Pills</h3>
@@ -90,7 +123,7 @@
             </div>
         </header>
         <br>
-        <a href="https://www.youtube.com/watch?v=Ki4haFrqSrw"><img class="img-fluid rounded float-start p-4" src="greenmile.jpg" alt="trailer"></a>
+        <a href="https://www.youtube.com/watch?v=Ki4haFrqSrw"><img class="img-fluid rounded float-start p-4" src="pics/greenmile.jpg" alt="trailer"></a>
         <br>
         <p class="p-2">The Green Mile is a 1999 American magical realism drama film written and directed by Frank Darabont and based on Stephen King's 1996 novel of the same name. It stars Tom Hanks as a death row prison guard during the Great Depression who witnesses
             supernatural events following the arrival of an enigmatic convict (Michael Clarke Duncan) at his facility. David Morse, Bonnie Hunt, Doug Hutchison and James Cromwell appear in supporting roles.<br><br> The film premiered on December 10, 1999,
@@ -150,33 +183,49 @@
         </table>
     </div>
 
-    <div class="container">
+    <div class="container w-50">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="pics/1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="pics/4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="pics/2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="pics/3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="pics/5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
             </div>
@@ -189,7 +238,6 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        </ class="container">
 
         <footer>
             <!-- <a href="index.html"> First HTML page </a> | -->
