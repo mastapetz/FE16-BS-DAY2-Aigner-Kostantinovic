@@ -1,10 +1,21 @@
 Do you know what the default font stack in Bootstrap is?
+Up till BS-4 it was Helvetica Neue, Helvetica and Arial
+BS-5 uses the native font stack which is the system default font san serif, for optimal rendering of text on every device and text font s-tack includes emojoy, and common symbol/dingbat unicode characters
+
 
 What do we need to do to get nice looking tables in Bootstrap?
+Knowledge of bootstraps terms for changing table colors
+a table layout with headers rows and cells
 
 How many Bootstrap layout components do you know?
+There are base-classes that share properties, 
+Modifiers that can be added to the base class to make customication easier
+
 
 Bootstrap provides a few different options for styling navigation elements, how many do you know?
+Predefined containers that allows a quicker way of styling everything to ones needs
+Typography also can be used to globalised set colors and font families
 
 
 What is the purpose of the modal window?
+The modal window is used as a window that is positioned over everything, known from windows alert messages with OK/Cancle/Close or as in some Webpages used to alert you about incorrect passwords and such. It can be set to close when you click anywhere outside, or only when you click the needed button
